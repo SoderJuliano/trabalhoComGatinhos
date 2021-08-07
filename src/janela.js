@@ -5,6 +5,7 @@ import {IoIosArrowForward} from "react-icons/io"
 import gato0 from "./gato0.jfif"
 import gato1 from "./gato1.jfif"
 import gato2 from "./gato2.jfif"
+import {Bolinhas} from "./bolinhas.js"
 
 const Janela = () =>{
     const [janelaAmostra, setarJanela] = useState(0)
@@ -39,7 +40,9 @@ const Janela = () =>{
                {arrbk()}
                     {rederPhoto()}
                 {arrfw()}
+                <Bolinhas selecionada={janelaAmostra} />
             </div>
+            
         )
     }
     const render = () =>{

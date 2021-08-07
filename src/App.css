@@ -63,3 +63,25 @@ img{
   height: 50px;
   color: orange;
 }
+.bolinhas-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  align-self: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.bolinha{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: bisque;
+  border: #e9d147 solid 1px;
+}
+.bolao{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: bisque;
+  border: #e9d147 solid 1px;
+}
