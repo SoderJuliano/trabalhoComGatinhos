@@ -78,6 +78,13 @@ img{
   background-color: bisque;
   border: #e9d147 solid 1px;
 }
+.ball{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: bisque;
+  border: #e9d147 solid 1px;
+}
 .bolao{
   width: 20px;
   height: 20px;
