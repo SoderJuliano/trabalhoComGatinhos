@@ -10,6 +10,9 @@ import {Bolinhas} from "./bolinhas.js"
 const Janela = () =>{
     const [janelaAmostra, setarJanela] = useState(0)
 
+    const updatePageState = (state) => {
+        setarJanela(state);
+    } 
     const rederPhoto = () =>{
 
         if(janelaAmostra==0){
@@ -40,7 +43,7 @@ const Janela = () =>{
                {arrbk()}
                     {rederPhoto()}
                 {arrfw()}
-                <Bolinhas selecionada={janelaAmostra} />
+                <Bolinhas  triggerParentUpdate = {updatePageState} selecionada={janelaAmostra} />
             </div>
             
         )
